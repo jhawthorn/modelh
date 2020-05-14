@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name modelm)(type KiCad)(uri /Users/jhawthorn/Documents/modelm)(options "")(descr ""))
-  (lib (name promicro_library)(type KiCad)(uri ${KIPRJMOD}/promicro_library)(options "")(descr ""))
-  (lib (name promicro.pretty)(type KiCad)(uri /Users/jhawthorn/Documents/modelm/promicro.pretty)(options "")(descr ""))
-)
