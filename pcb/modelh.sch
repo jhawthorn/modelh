@@ -1053,11 +1053,11 @@ Wire Wire Line
 Wire Wire Line
 	6400 4500 6700 4500
 Wire Wire Line
-	4800 4400 5100 4400
+	4800 4200 5100 4200
 Wire Wire Line
 	5100 4300 4800 4300
 Wire Wire Line
-	4800 4200 5100 4200
+	4800 4400 5100 4400
 Wire Wire Line
 	6700 3500 6400 3500
 Wire Wire Line
@@ -1250,11 +1250,11 @@ Text GLabel 4800 4000 0    50   Input ~ 0
 row1
 Text GLabel 4800 4100 0    50   Input ~ 0
 row0
-Text GLabel 4800 4200 0    50   Input ~ 0
+Text GLabel 4800 4400 0    50   Input ~ 0
 led0
 Text GLabel 4800 4300 0    50   Input ~ 0
 led1
-Text GLabel 4800 4400 0    50   Input ~ 0
+Text GLabel 4800 4200 0    50   Input ~ 0
 led2
 Text GLabel 4800 4500 0    50   Input ~ 0
 col8
