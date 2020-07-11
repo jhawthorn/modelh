@@ -46,22 +46,6 @@ F 3 "~" H 10300 4550 50  0001 C CNN
 	1    10300 4550
 	1    0    0    -1  
 $EndComp
-Text HLabel 9800 1950 0    50   Input ~ 0
-col7
-Text HLabel 9800 1850 0    50   Input ~ 0
-col6
-Text HLabel 9800 1750 0    50   Input ~ 0
-col5
-Text HLabel 9800 1650 0    50   Input ~ 0
-col4
-Text HLabel 9800 1550 0    50   Input ~ 0
-col3
-Text HLabel 9800 1450 0    50   Input ~ 0
-col2
-Text HLabel 9800 1350 0    50   Input ~ 0
-col1
-Text HLabel 9800 1250 0    50   Input ~ 0
-col0
 Wire Wire Line
 	10100 1250 9800 1250
 Wire Wire Line
@@ -78,22 +62,6 @@ Wire Wire Line
 	10100 1850 9800 1850
 Wire Wire Line
 	9800 1950 10100 1950
-Text HLabel 9800 2450 0    50   Input ~ 0
-col12
-Text HLabel 9800 2750 0    50   Input ~ 0
-col15
-Text HLabel 9800 2650 0    50   Input ~ 0
-col14
-Text HLabel 9800 2550 0    50   Input ~ 0
-col13
-Text HLabel 9800 2350 0    50   Input ~ 0
-col11
-Text HLabel 9800 2250 0    50   Input ~ 0
-col10
-Text HLabel 9800 2150 0    50   Input ~ 0
-col9
-Text HLabel 9800 2050 0    50   Input ~ 0
-col8
 Wire Wire Line
 	10100 2050 9800 2050
 Wire Wire Line
@@ -110,22 +78,6 @@ Wire Wire Line
 	10100 2650 9800 2650
 Wire Wire Line
 	9800 2750 10100 2750
-Text HLabel 9800 3900 0    50   Input ~ 0
-row7
-Text HLabel 9800 3800 0    50   Input ~ 0
-row6
-Text HLabel 9800 3700 0    50   Input ~ 0
-row5
-Text HLabel 9800 3600 0    50   Input ~ 0
-row4
-Text HLabel 9800 3500 0    50   Input ~ 0
-row3
-Text HLabel 9800 3400 0    50   Input ~ 0
-row2
-Text HLabel 9800 3300 0    50   Input ~ 0
-row1
-Text HLabel 9800 3200 0    50   Input ~ 0
-row0
 Wire Wire Line
 	10100 3200 9800 3200
 Wire Wire Line
@@ -178,12 +130,6 @@ F 4 "C22787" H 9650 4750 50  0001 C CNN "LCSC"
 	1    9650 4750
 	0    1    1    0   
 $EndComp
-Text HLabel 9200 4750 0    50   Input ~ 0
-led2
-Text HLabel 9200 4550 0    50   Input ~ 0
-led1
-Text HLabel 9200 4450 0    50   Input ~ 0
-led0
 Wire Wire Line
 	9200 4450 9500 4450
 Wire Wire Line
@@ -314,10 +260,6 @@ Wire Wire Line
 	1700 1100 1800 1100
 Wire Wire Line
 	2250 1100 2250 1000
-Text HLabel 2350 1400 2    50   Input ~ 0
-D-
-Text HLabel 2350 1300 2    50   Input ~ 0
-D+
 $Comp
 L Device:R R3
 U 1 1 5EDACAA8
@@ -405,30 +347,10 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    5800 3700
 	1    0    0    -1  
 $EndComp
-Text HLabel 4800 4600 0    50   Input ~ 0
-col7
-Text HLabel 4800 4700 0    50   Input ~ 0
-col6
 Wire Wire Line
 	5100 4700 4800 4700
 Wire Wire Line
 	4800 4600 5100 4600
-Text HLabel 6700 4100 2    50   Input ~ 0
-col12
-Text HLabel 6700 3800 2    50   Input ~ 0
-col15
-Text HLabel 6700 3900 2    50   Input ~ 0
-col14
-Text HLabel 6700 4000 2    50   Input ~ 0
-col13
-Text HLabel 6700 4200 2    50   Input ~ 0
-col11
-Text HLabel 4800 3500 0    50   Input ~ 0
-col10
-Text HLabel 4800 3600 0    50   Input ~ 0
-col9
-Text HLabel 4800 4500 0    50   Input ~ 0
-col8
 Wire Wire Line
 	5100 4500 4800 4500
 Wire Wire Line
@@ -445,18 +367,8 @@ Wire Wire Line
 	6400 3900 6700 3900
 Wire Wire Line
 	6700 3800 6400 3800
-Text HLabel 4800 4100 0    50   Input ~ 0
-row0
 Wire Wire Line
 	5100 4100 4800 4100
-Text HLabel 4800 3300 0    50   Input ~ 0
-OSC32OUT
-Text HLabel 4800 3200 0    50   Input ~ 0
-OSC32IN
-Text HLabel 4800 2900 0    50   Input ~ 0
-OSC8OUT
-Text HLabel 4800 2800 0    50   Input ~ 0
-OSC8IN
 Wire Wire Line
 	5100 2800 4800 2800
 Wire Wire Line
@@ -467,8 +379,6 @@ Wire Wire Line
 	4800 3300 5100 3300
 Wire Wire Line
 	5100 2400 4800 2400
-Text HLabel 4150 6800 2    50   Input ~ 0
-nRST
 Wire Wire Line
 	4150 6800 3850 6800
 Connection ~ 3850 6800
@@ -550,10 +460,6 @@ Connection ~ 5650 7200
 Wire Wire Line
 	5550 7500 5650 7500
 Connection ~ 5650 7500
-Text HLabel 6300 6750 2    50   Input ~ 0
-OSC8OUT
-Text HLabel 6300 6450 2    50   Input ~ 0
-OSC8IN
 $Comp
 L Device:R R6
 U 1 1 5F14F58C
@@ -572,10 +478,6 @@ Connection ~ 5650 6450
 Wire Wire Line
 	6100 6750 5650 6750
 Connection ~ 5650 6750
-Text HLabel 6050 7500 2    50   Input ~ 0
-OSC32OUT
-Text HLabel 6050 7200 2    50   Input ~ 0
-OSC32IN
 Wire Wire Line
 	5650 7200 6050 7200
 Wire Wire Line
@@ -613,20 +515,10 @@ Wire Wire Line
 	6700 5000 6400 5000
 Wire Wire Line
 	5100 3900 4800 3900
-Text HLabel 4800 3900 0    50   Input ~ 0
-row2
-Text HLabel 6700 5000 2    50   Input ~ 0
-row3
-Text HLabel 4800 3800 0    50   Input ~ 0
-row4
 Wire Wire Line
 	6700 4900 6400 4900
 Wire Wire Line
 	6400 4800 6700 4800
-Text HLabel 6700 4800 2    50   Input ~ 0
-SWDIO
-Text HLabel 6700 4900 2    50   Input ~ 0
-SWCLK
 $Comp
 L power:GND #PWR0107
 U 1 1 5F1B4C47
@@ -668,12 +560,8 @@ Wire Wire Line
 	1450 6850 1450 6750
 Wire Wire Line
 	1450 6450 1450 6350
-Text HLabel 4800 3100 0    50   Input ~ 0
-STATUSLED
 Wire Wire Line
 	5100 3100 4800 3100
-Text HLabel 1450 6350 1    50   Input ~ 0
-STATUSLED
 $Comp
 L power:+3.3V #PWR0108
 U 1 1 5F1E7042
@@ -696,8 +584,6 @@ F 3 "" H 900 6350 50  0001 C CNN
 	1    900  6350
 	1    0    0    -1  
 $EndComp
-Text HLabel 4800 2400 0    50   Input ~ 0
-nRST
 $Comp
 L Regulator_Linear:AMS1117-3.3 U2
 U 1 1 5F2552B1
@@ -826,8 +712,6 @@ F 3 "" H 3300 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5100 2600 4800 2600
-Text HLabel 4800 2600 0    50   Input ~ 0
-BOOT0
 $Comp
 L power:GND #PWR0115
 U 1 1 5F3510B1
@@ -858,10 +742,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 5300 5800 5300
 Connection ~ 5800 5300
-Text HLabel 6700 4600 2    50   Input ~ 0
-D-
-Text HLabel 6700 4700 2    50   Input ~ 0
-D+
 Wire Wire Line
 	6700 4600 6400 4600
 Wire Wire Line
@@ -923,8 +803,6 @@ Wire Wire Line
 	1950 5150 1850 5150
 Wire Wire Line
 	1550 5150 1250 5150
-Text HLabel 1250 5150 0    50   Input ~ 0
-BOOT0
 $Comp
 L power:+3.3V #PWR0116
 U 1 1 5F4B74AC
@@ -1041,14 +919,8 @@ Wire Wire Line
 	8000 1400 7700 1400
 Wire Wire Line
 	7700 1300 8000 1300
-Text HLabel 8000 1300 2    50   Input ~ 0
-SWDIO
-Text HLabel 8000 1400 2    50   Input ~ 0
-SWCLK
 Wire Wire Line
 	7700 1700 8000 1700
-Text HLabel 8000 1700 2    50   Input ~ 0
-nRST
 $Comp
 L Device:C C10
 U 1 1 5F169982
@@ -1180,36 +1052,12 @@ Wire Wire Line
 	6700 4400 6400 4400
 Wire Wire Line
 	6400 4500 6700 4500
-Text HLabel 6700 4500 2    50   Input ~ 0
-col0
-Text HLabel 6700 4400 2    50   Input ~ 0
-col1
-Text HLabel 6700 4300 2    50   Input ~ 0
-col2
-Text HLabel 4800 5000 0    50   Input ~ 0
-col3
-Text HLabel 4800 4900 0    50   Input ~ 0
-col4
-Text HLabel 4800 4800 0    50   Input ~ 0
-col5
 Wire Wire Line
 	4800 4400 5100 4400
 Wire Wire Line
 	5100 4300 4800 4300
 Wire Wire Line
 	4800 4200 5100 4200
-Text HLabel 4800 4200 0    50   Input ~ 0
-led0
-Text HLabel 4800 4300 0    50   Input ~ 0
-led1
-Text HLabel 4800 4400 0    50   Input ~ 0
-led2
-Text HLabel 6700 3600 2    50   Input ~ 0
-row7
-Text HLabel 6700 3700 2    50   Input ~ 0
-row6
-Text HLabel 6700 3500 2    50   Input ~ 0
-row5
 Wire Wire Line
 	6700 3500 6400 3500
 Wire Wire Line
@@ -1258,14 +1106,167 @@ Wire Wire Line
 	2100 1100 2250 1100
 Wire Wire Line
 	2900 5150 3200 5150
-Text HLabel 3200 5150 2    50   Input ~ 0
-BOOT1
 Wire Wire Line
 	5100 3700 4800 3700
-Text HLabel 4800 3700 0    50   Input ~ 0
-BOOT1
-Text HLabel 4800 4000 0    50   Input ~ 0
-row1
 Wire Wire Line
 	4800 4000 5100 4000
+Text GLabel 9800 1250 0    50   Input ~ 0
+col0
+Text GLabel 9800 1350 0    50   Input ~ 0
+col1
+Text GLabel 9800 1450 0    50   Input ~ 0
+col2
+Text GLabel 9800 1550 0    50   Input ~ 0
+col3
+Text GLabel 9800 1650 0    50   Input ~ 0
+col4
+Text GLabel 9800 1750 0    50   Input ~ 0
+col5
+Text GLabel 9800 1850 0    50   Input ~ 0
+col6
+Text GLabel 9800 1950 0    50   Input ~ 0
+col7
+Text GLabel 9800 2050 0    50   Input ~ 0
+col8
+Text GLabel 9800 2150 0    50   Input ~ 0
+col9
+Text GLabel 9800 2250 0    50   Input ~ 0
+col10
+Text GLabel 9800 2350 0    50   Input ~ 0
+col11
+Text GLabel 9800 2450 0    50   Input ~ 0
+col12
+Text GLabel 9800 2550 0    50   Input ~ 0
+col13
+Text GLabel 9800 2650 0    50   Input ~ 0
+col14
+Text GLabel 9800 2750 0    50   Input ~ 0
+col15
+Text GLabel 9800 3200 0    50   Input ~ 0
+row0
+Text GLabel 9800 3300 0    50   Input ~ 0
+row1
+Text GLabel 9800 3400 0    50   Input ~ 0
+row2
+Text GLabel 9800 3500 0    50   Input ~ 0
+row3
+Text GLabel 9800 3600 0    50   Input ~ 0
+row4
+Text GLabel 9800 3700 0    50   Input ~ 0
+row5
+Text GLabel 9800 3800 0    50   Input ~ 0
+row6
+Text GLabel 9800 3900 0    50   Input ~ 0
+row7
+Text GLabel 9200 4450 0    50   Input ~ 0
+led0
+Text GLabel 9200 4550 0    50   Input ~ 0
+led1
+Text GLabel 9200 4750 0    50   Input ~ 0
+led2
+Text GLabel 2350 1300 2    50   Input ~ 0
+D+
+Text GLabel 2350 1400 2    50   Input ~ 0
+D-
+Text GLabel 1250 5150 0    50   Input ~ 0
+BOOT0
+Text GLabel 3200 5150 2    50   Input ~ 0
+BOOT1
+Text GLabel 1450 6350 1    50   Input ~ 0
+STATUSLED
+Text GLabel 4150 6800 2    50   Input ~ 0
+nRST
+Text GLabel 6050 7500 2    50   Input ~ 0
+OSC32OUT
+Text GLabel 6050 7200 2    50   Input ~ 0
+OSC32IN
+Text GLabel 6300 6750 2    50   Input ~ 0
+OSC8OUT
+Text GLabel 6300 6450 2    50   Input ~ 0
+OSC8IN
+Text GLabel 6700 3500 2    50   Input ~ 0
+row5
+Text GLabel 6700 3600 2    50   Input ~ 0
+row7
+Text GLabel 6700 3700 2    50   Input ~ 0
+row6
+Text GLabel 6700 3800 2    50   Input ~ 0
+col15
+Text GLabel 6700 3900 2    50   Input ~ 0
+col14
+Text GLabel 6700 4000 2    50   Input ~ 0
+col13
+Text GLabel 6700 4100 2    50   Input ~ 0
+col12
+Text GLabel 6700 4200 2    50   Input ~ 0
+col11
+Text GLabel 6700 4300 2    50   Input ~ 0
+col2
+Text GLabel 6700 4400 2    50   Input ~ 0
+col1
+Text GLabel 6700 4500 2    50   Input ~ 0
+col0
+Text GLabel 6700 4600 2    50   Input ~ 0
+D-
+Text GLabel 6700 4700 2    50   Input ~ 0
+D+
+Text GLabel 6700 4800 2    50   Input ~ 0
+SWDIO
+Text GLabel 6700 4900 2    50   Input ~ 0
+SWCLK
+Text GLabel 6700 5000 2    50   Input ~ 0
+row3
+Text GLabel 8000 1300 2    50   Input ~ 0
+SWDIO
+Text GLabel 8000 1400 2    50   Input ~ 0
+SWCLK
+Text GLabel 8000 1700 2    50   Input ~ 0
+nRST
+Text GLabel 4800 2400 0    50   Input ~ 0
+nRST
+Text GLabel 4800 2600 0    50   Input ~ 0
+BOOT0
+Text GLabel 4800 2800 0    50   Input ~ 0
+OSC8IN
+Text GLabel 4800 2900 0    50   Input ~ 0
+OSC8OUT
+Text GLabel 4800 3100 0    50   Input ~ 0
+STATUSLED
+Text GLabel 4800 3200 0    50   Input ~ 0
+OSC32IN
+Text GLabel 4800 3300 0    50   Input ~ 0
+OSC32OUT
+Text GLabel 4800 3500 0    50   Input ~ 0
+col10
+Text GLabel 4800 3600 0    50   Input ~ 0
+col9
+Text GLabel 4800 3700 0    50   Input ~ 0
+BOOT1
+Text GLabel 4800 3800 0    50   Input ~ 0
+row4
+Text GLabel 4800 3900 0    50   Input ~ 0
+row2
+Text GLabel 4800 4000 0    50   Input ~ 0
+row1
+Text GLabel 4800 4100 0    50   Input ~ 0
+row0
+Text GLabel 4800 4200 0    50   Input ~ 0
+led0
+Text GLabel 4800 4300 0    50   Input ~ 0
+led1
+Text GLabel 4800 4400 0    50   Input ~ 0
+led2
+Text GLabel 4800 4500 0    50   Input ~ 0
+col8
+Text GLabel 4800 4600 0    50   Input ~ 0
+col7
+Text GLabel 4800 4700 0    50   Input ~ 0
+col6
+Text GLabel 4800 4800 0    50   Input ~ 0
+col5
+Text GLabel 4800 4900 0    50   Input ~ 0
+col4
+Text GLabel 4800 5000 0    50   Input ~ 0
+col3
+NoConn ~ 7700 1500
 $EndSCHEMATC
