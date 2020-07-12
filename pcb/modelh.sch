@@ -1320,4 +1320,111 @@ Wire Wire Line
 Connection ~ 1450 5150
 Wire Wire Line
 	1450 5150 1250 5150
+Wire Wire Line
+	10600 5650 10500 5650
+Wire Wire Line
+	10600 5750 10500 5750
+Wire Wire Line
+	10500 5850 10600 5850
+Wire Wire Line
+	10600 5950 10500 5950
+Wire Wire Line
+	10600 6050 10500 6050
+$Comp
+L power:+3.3V #PWR0119
+U 1 1 5F15264C
+P 8950 5900
+F 0 "#PWR0119" H 8950 5750 50  0001 C CNN
+F 1 "+3.3V" H 8965 6073 50  0000 C CNN
+F 2 "" H 8950 5900 50  0001 C CNN
+F 3 "" H 8950 5900 50  0001 C CNN
+	1    8950 5900
+	1    0    0    -1  
+$EndComp
+Text GLabel 9350 5650 0    50   Input ~ 0
+led0
+Text GLabel 9350 5750 0    50   Input ~ 0
+led1
+Text GLabel 9350 5850 0    50   Input ~ 0
+led2
+Wire Wire Line
+	8950 5950 8950 5900
+$Comp
+L power:GND #PWR0125
+U 1 1 5F1B8868
+P 8950 6150
+F 0 "#PWR0125" H 8950 5900 50  0001 C CNN
+F 1 "GND" H 8955 5977 50  0000 C CNN
+F 2 "" H 8950 6150 50  0001 C CNN
+F 3 "" H 8950 6150 50  0001 C CNN
+	1    8950 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 6050 8950 6150
+$Comp
+L Connector_Generic:Conn_01x05 J7
+U 1 1 5F225882
+P 10800 5850
+F 0 "J7" H 10880 5892 50  0000 L CNN
+F 1 "Conn_01x05" H 10880 5801 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 10800 5850 50  0001 C CNN
+F 3 "~" H 10800 5850 50  0001 C CNN
+	1    10800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F23CFEB
+P 8400 5800
+F 0 "TP1" H 8342 5826 50  0000 R CNN
+F 1 "TestPoint" H 8342 5917 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8600 5800 50  0001 C CNN
+F 3 "~" H 8600 5800 50  0001 C CNN
+	1    8400 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0126
+U 1 1 5F25ACB8
+P 8400 5800
+F 0 "#PWR0126" H 8400 5650 50  0001 C CNN
+F 1 "+5V" H 8415 5973 50  0000 C CNN
+F 2 "" H 8400 5800 50  0001 C CNN
+F 3 "" H 8400 5800 50  0001 C CNN
+	1    8400 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5650 9350 5650
+Wire Wire Line
+	9450 5750 9350 5750
+Wire Wire Line
+	9350 5850 9450 5850
+$Comp
+L Connector_Generic:Conn_01x05 J8
+U 1 1 5F2B29EC
+P 9650 5850
+F 0 "J8" H 9730 5892 50  0000 L CNN
+F 1 "Conn_01x05" H 9730 5801 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 9650 5850 50  0001 C CNN
+F 3 "~" H 9650 5850 50  0001 C CNN
+	1    9650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J9
+U 1 1 5F2C10C8
+P 10300 5850
+F 0 "J9" H 10380 5892 50  0000 L CNN
+F 1 "Conn_01x05" H 10380 5801 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 10300 5850 50  0001 C CNN
+F 3 "~" H 10300 5850 50  0001 C CNN
+	1    10300 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 5950 9450 5950
+Wire Wire Line
+	8950 6050 9450 6050
 $EndSCHEMATC
