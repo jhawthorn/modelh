@@ -182,7 +182,7 @@ L Device:LED LED1
 U 1 1 5ECC1B17
 P 900 7000
 F 0 "LED1" V 939 6883 50  0000 R CNN
-F 1 "LED" V 848 6883 50  0000 R CNN
+F 1 "green" V 848 6883 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 900 7000 50  0001 C CNN
 F 3 "~" H 900 7000 50  0001 C CNN
 F 4 "C2297" H 900 7000 50  0001 C CNN "LCSC"
@@ -347,14 +347,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 4100 4800 4100
 Wire Wire Line
-	5100 2800 4800 2800
-Wire Wire Line
-	4800 2900 5100 2900
-Wire Wire Line
-	5100 3200 4800 3200
-Wire Wire Line
-	4800 3300 5100 3300
-Wire Wire Line
 	5100 2400 4800 2400
 Wire Wire Line
 	4150 6800 3850 6800
@@ -375,69 +367,6 @@ Wire Wire Line
 Wire Wire Line
 	5550 6750 5650 6750
 $Comp
-L Device:C C7
-U 1 1 5F13915E
-P 5400 7200
-F 0 "C7" V 5300 7050 50  0000 C CNN
-F 1 "20pF" V 5300 7350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 7050 50  0001 C CNN
-F 3 "~" H 5400 7200 50  0001 C CNN
-F 4 "C1653" H 5400 7200 50  0001 C CNN "LCSC"
-	1    5400 7200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 5F139165
-P 5400 7500
-F 0 "C8" V 5500 7350 50  0000 C CNN
-F 1 "20pF" V 5500 7650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 7350 50  0001 C CNN
-F 3 "~" H 5400 7500 50  0001 C CNN
-F 4 "C1653" H 5400 7500 50  0001 C CNN "LCSC"
-	1    5400 7500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5250 7200 5100 7200
-Wire Wire Line
-	5100 7500 5250 7500
-Wire Wire Line
-	5100 7200 5100 7350
-$Comp
-L power:GND #PWR0106
-U 1 1 5F13916E
-P 5000 7350
-F 0 "#PWR0106" H 5000 7100 50  0001 C CNN
-F 1 "GND" H 5005 7177 50  0000 C CNN
-F 2 "" H 5000 7350 50  0001 C CNN
-F 3 "" H 5000 7350 50  0001 C CNN
-	1    5000 7350
-	0    1    1    0   
-$EndComp
-Connection ~ 5100 7350
-Wire Wire Line
-	5100 7350 5100 7500
-Wire Wire Line
-	5000 7350 5100 7350
-$Comp
-L Device:Crystal Y2
-U 1 1 5F139177
-P 5650 7350
-F 0 "Y2" V 5604 7481 50  0000 L CNN
-F 1 "32.768KHz" V 5695 7481 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 5650 7350 50  0001 C CNN
-F 3 "~" H 5650 7350 50  0001 C CNN
-	1    5650 7350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5550 7200 5650 7200
-Connection ~ 5650 7200
-Wire Wire Line
-	5550 7500 5650 7500
-Connection ~ 5650 7500
-$Comp
 L Device:R R6
 U 1 1 5F14F58C
 P 6100 6600
@@ -455,10 +384,6 @@ Connection ~ 5650 6450
 Wire Wire Line
 	6100 6750 5650 6750
 Connection ~ 5650 6750
-Wire Wire Line
-	5650 7200 6050 7200
-Wire Wire Line
-	5650 7500 6050 7500
 Wire Wire Line
 	6300 6750 6100 6750
 Connection ~ 6100 6750
@@ -524,7 +449,7 @@ L Device:LED LED2
 U 1 1 5F1B4C55
 P 1450 7000
 F 0 "LED2" V 1489 6883 50  0000 R CNN
-F 1 "LED" V 1398 6883 50  0000 R CNN
+F 1 "amber" V 1398 6883 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 1450 7000 50  0001 C CNN
 F 3 "~" H 1450 7000 50  0001 C CNN
 F 4 "C2297" H 1450 7000 50  0001 C CNN "LCSC"
@@ -1135,10 +1060,6 @@ Text GLabel 1450 6350 1    50   Input ~ 0
 STATUSLED
 Text GLabel 4150 6800 2    50   Input ~ 0
 nRST
-Text GLabel 6050 7500 2    50   Input ~ 0
-OSC32OUT
-Text GLabel 6050 7200 2    50   Input ~ 0
-OSC32IN
 Text GLabel 6300 6750 2    50   Input ~ 0
 OSC8OUT
 Text GLabel 6300 6450 2    50   Input ~ 0
@@ -1185,16 +1106,8 @@ Text GLabel 4800 2400 0    50   Input ~ 0
 nRST
 Text GLabel 4800 2600 0    50   Input ~ 0
 BOOT0
-Text GLabel 4800 2800 0    50   Input ~ 0
-OSC8IN
-Text GLabel 4800 2900 0    50   Input ~ 0
-OSC8OUT
 Text GLabel 4800 3100 0    50   Input ~ 0
 STATUSLED
-Text GLabel 4800 3200 0    50   Input ~ 0
-OSC32IN
-Text GLabel 4800 3300 0    50   Input ~ 0
-OSC32OUT
 Text GLabel 4800 3500 0    50   Input ~ 0
 col10
 Text GLabel 4800 3600 0    50   Input ~ 0
@@ -1351,4 +1264,14 @@ F 3 "~" H 1950 1100 50  0001 C CNN
 	1    1950 1100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4900 2800 5100 2800
+Wire Wire Line
+	4900 2900 5100 2900
+Text GLabel 4900 2800 0    50   Input ~ 0
+OSC8OUT
+Text GLabel 4900 2900 0    50   Input ~ 0
+OSC8IN
+NoConn ~ 5100 3200
+NoConn ~ 5100 3300
 $EndSCHEMATC
