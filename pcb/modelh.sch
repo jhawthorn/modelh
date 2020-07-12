@@ -19,7 +19,7 @@ U 1 1 5E88F7EA
 P 10300 1950
 F 0 "J2" H 10380 1942 50  0000 L CNN
 F 1 "Conn_01x16" H 10380 1851 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 10300 1950 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 10300 1950 50  0001 C CNN
 F 3 "~" H 10300 1950 50  0001 C CNN
 	1    10300 1950
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 5E891730
 P 10300 4700
 F 0 "J4" H 10380 4692 50  0000 L CNN
 F 1 "Conn_01x04" H 10380 4601 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10300 4700 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 10300 4700 50  0001 C CNN
 F 3 "~" H 10300 4700 50  0001 C CNN
 	1    10300 4700
 	1    0    0    -1  
