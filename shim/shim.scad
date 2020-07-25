@@ -2,30 +2,36 @@ $fn = 128;
 
 module usb_port() {
 	translate([-6.25,-5,0])
-		cube([12.5, 18, 11]);
+		cube([12.5, 18, 12]);
 }
 
 module pegs() {
-	translate([-12,7,0])
+	translate([-12,6,0])
 		cylinder(10, 2, 2);
-	translate([12,7,0])
+	translate([12,6,0])
 		cylinder(10, 2, 2);
 }
 
 module outer() {
-	translate([-10, -3, 0.1])
-		cube([20, 3, 14]);
+	translate([-10, -4, 0.01])
+		cube([20, 4, 14]);
 }
 
 module inner() {
-	translate([-16, 0, 0.1])
+	translate([-16, 0, 0.01])
 		cube([32, 3, 14]);
 }
 
 module base() {
 	difference() {
-		translate([-16, 0, 0.1])
-			cube([32, 10, 3]);
+		union() {
+			translate([-16, 0, 0.01])
+				cube([32, 6, 3]);
+			translate([-12,6,0.01])
+				cylinder(3, 4, 4);
+			translate([12,6,0.01])
+				cylinder(3, 4, 4);
+		}
 		translate([-8,-5,0])
 			cube([16, 18, 11]);
 	}
