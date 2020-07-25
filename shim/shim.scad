@@ -6,10 +6,10 @@ module usb_port() {
 }
 
 module pegs() {
-	translate([-12,5,0])
-		cylinder(10, 3.5 / 2, 3.5/2);
-	translate([12,5,0])
-		cylinder(10, 3.5 / 2, 3.5/2);
+	translate([-12,7,0])
+		cylinder(10, 2, 2);
+	translate([12,7,0])
+		cylinder(10, 2, 2);
 }
 
 module outer() {
