@@ -36,11 +36,23 @@ module base() {
 				cylinder(3, 4, 4);
 			translate([12,6,0.01])
 				cylinder(3, 4, 4);
+
+			translate([-16, 0, 3])
+				cube([32, 6, 3]);
 		}
-		translate([-8,-5,0])
-			cube([16, 18, 11]);
+		union() {
+			translate([-8,-5,0])
+				cube([16, 18, 11]);
+
+			translate([-16.1,6,6]) {
+				rotate([0,90,0]) {
+					cylinder(33, 3, 3);
+				}
+			}
+		}
 	}
 }
+
 
 module fill() {
 	outer();
