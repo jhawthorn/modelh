@@ -1,8 +1,13 @@
 $fn = 128;
 
+total_height = 13.2;
+
+usb_port_width = 12.5;
+usb_port_height = 11.6;
+
 module usb_port() {
-	translate([-6.25,-5,0])
-		cube([12.5, 18, 12]);
+	translate([-(usb_port_width / 2), -5,0])
+		cube([usb_port_width, 18, usb_port_height]);
 }
 
 module pegs() {
@@ -14,12 +19,12 @@ module pegs() {
 
 module outer() {
 	translate([-10, -4, 0.01])
-		cube([20, 4, 14]);
+		cube([20, 4, total_height]);
 }
 
 module inner() {
 	translate([-16, 0, 0.01])
-		cube([32, 3, 14]);
+		cube([32, 3, total_height]);
 }
 
 module base() {
