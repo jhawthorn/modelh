@@ -1,6 +1,7 @@
 $fn = 128;
 
 total_height = 13.2;
+ridge_height = 1.2;
 
 usb_port_width = 12.5;
 usb_port_height = 11.6;
@@ -24,7 +25,7 @@ module outer() {
 
 module inner() {
 	translate([-16, 0, 0.01])
-		cube([32, 3, total_height]);
+		cube([32, 3, total_height + ridge_height]);
 }
 
 module base() {
