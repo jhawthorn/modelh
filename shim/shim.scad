@@ -19,8 +19,17 @@ module pegs() {
 }
 
 module outer() {
-	translate([-10, -4, 0.01])
-		cube([20, 4, total_height]);
+    port_height = total_height;
+    port_width_small = 20;
+    port_width_big = 21;
+    port_thickness = 4;
+	
+    translate([0, 0, 0.01])
+        difference(){
+            linear_extrude(height = port_height, scale = port_width_big/port_width_small) square(port_width_small, center = true);
+            translate([-25/2,-20-port_thickness,-1])cube([25, 20, port_height+2]);
+            translate([-25/2,3,-1])cube([25, 20, port_height+2]);
+        }
 }
 
 module inner() {
